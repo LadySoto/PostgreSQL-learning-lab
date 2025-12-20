@@ -7,13 +7,18 @@ enfocado en arquitectura, SQL avanzado y administración básica.
 
 ## Estructura del repositorio
 
-📁 **carpeta_dia**  
-  - 📁 **notas**  
-  - 📁 **scripts**
+📁 day01_environment  
+  - 📁 notas  
+  - 📁 scripts  
+
+📁 day02_schemas  
+  - 📁 notas  
+  - 📁 scripts  
 
 ## Cómo usar este repositorio
 
 1. Clona el repositorio
+git clone https://github.com/LadySoto/PostgreSQL-learning-lab.git
 2. Navega a la carpeta del día
 3. Ejecuta los scripts en psql o pgAdmin
 
@@ -21,4 +26,4 @@ enfocado en arquitectura, SQL avanzado y administración básica.
 
 Actualmente estoy realizando un plan intensivo de 20 días
 para dominar PostgreSQL y prepararme para roles profesionales
-como Support Engineer, DBA o Data Engineer.
+como Support Engineer, DBA Junior o Data Engineer.
