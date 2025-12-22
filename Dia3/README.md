@@ -39,13 +39,17 @@ En PostgreSQL:
 
 Se crearon roles con distintos atributos administrativos:
 
+```sql
 CREATE ROLE admin
 WITH SUPERUSER
 LOGIN
 PASSWORD '******'
 VALID UNTIL '2025-12-31 19:30:59';
+```
 
+```sql
 CREATE ROLE usuario_escritura LOGIN PASSWORD '******';
+```
 
 ### 2️⃣ Asignación de roles (membresía):
 
@@ -57,8 +61,10 @@ Se analizó el efecto de la membresía y la diferencia entre:
 
 ### 3️⃣ Exploración de atributos de roles:
 
+```sql
 SELECT rolname, rolsuper, rolcreatedb, rolcreaterole, rolinherit, rolcanlogin
 FROM pg_roles;
+```
 
 Se identificó que:
 * Los atributos pertenecen al rol directamente.
