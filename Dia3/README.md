@@ -39,7 +39,6 @@ En PostgreSQL:
 
 Se crearon roles con distintos atributos administrativos:
 
-```sql
 CREATE ROLE admin
 WITH SUPERUSER
 LOGIN
@@ -58,7 +57,6 @@ Se analizó el efecto de la membresía y la diferencia entre:
 
 ### 3️⃣ Exploración de atributos de roles:
 
-```sql
 SELECT rolname, rolsuper, rolcreatedb, rolcreaterole, rolinherit, rolcanlogin
 FROM pg_roles;
 
