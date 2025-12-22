@@ -46,12 +46,10 @@ LOGIN
 PASSWORD '******'
 VALID UNTIL '2025-12-31 19:30:59';
 
-```sql
 CREATE ROLE usuario_escritura LOGIN PASSWORD '******';
 
 ### 2️⃣ Asignación de roles (membresía):
 
-```sql
 GRANT admin TO usuario_escritura;
 
 Se analizó el efecto de la membresía y la diferencia entre:
