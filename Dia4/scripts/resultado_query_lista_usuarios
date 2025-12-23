@@ -1,0 +1,7 @@
+"rolname","rolsuper","rolcreatedb","rolcreaterole","rolcanlogin","rolinherit"
+"admin",True,False,False,True,True
+"administrador_test",False,True,False,True,True
+"postgres",True,True,True,True,True
+"usuario_escritura",False,False,False,True,True
+"usuario_escritura2",False,True,True,True,True
+"usuario_lectura",False,False,False,True,True
