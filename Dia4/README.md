@@ -1,6 +1,6 @@
 # 📅 Día 4 – Seguridad en PostgreSQL & SQL Avanzado (Subqueries y CTE)
 
-##🎯 Objetivo del día:
+## 🎯 Objetivo del día:
 
 Comprender y aplicar conceptos clave de seguridad en PostgreSQL mediante el uso de roles, permisos y schemas, y profundizar en SQL avanzado utilizando subqueries y CTE (Common Table Expressions) para escribir consultas más legibles y mantenibles.
 
